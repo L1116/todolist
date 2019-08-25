@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background: #f5f5f5;
+  width: 800px;
+  margin: 30px auto;
+}
+.tittle {
+  font-size: 30px;
+  height: 60px;
+  line-height: 70px;
+}
+ul {
+  margin: 0;
+  padding: 0
+}
+ul li {
+  list-style: none;
+}

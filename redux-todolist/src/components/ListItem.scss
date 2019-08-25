@@ -1,0 +1,33 @@
+.delete-btn {
+    color: #9ea2a2;
+    float: right;
+    cursor: pointer;
+}
+.check-btn {
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	border: 1px #ccc solid;
+	border-style: outset;
+	border-radius: 5px;
+	margin-right: 20px; 
+	cursor: pointer;
+}
+
+.is-checked {
+	background-image: url(../qunar-check_thin.png);
+	background-size: cover;
+}
+
+li {
+	height: 50px;
+    line-height: 50px;
+	border-bottom: 1px solid #999;
+	padding: 10px;
+}
+li:first-child {
+	border-radius: 5px 5px 0 0;
+}
+li:last-child {
+	border-radius: 0 0 5px 5px;
+}
